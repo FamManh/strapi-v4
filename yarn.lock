@@ -1823,7 +1823,7 @@
     lodash "4.17.21"
     umzug "3.1.1"
 
-"@strapi/design-system@1.1.1":
+"@strapi/design-system@1.1.1", "@strapi/design-system@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@strapi/design-system/-/design-system-1.1.1.tgz#87efc79a0cb0f8b74fd36924bc4089c91928f946"
   integrity sha512-yM67ASyhtJqOSNPYiOQIG9qxsd9ceZ/00Yf0be5dArlgnhm/byQLnrWunq4L2mnhBGI1S6EjXjRzML/7NL5VDQ==

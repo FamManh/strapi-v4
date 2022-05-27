@@ -11,4 +11,8 @@ module.exports = ({ env }) => ({
   seo: {
     enabled: true,
   },
+  style: {
+    enabled: true,
+    resolve: "./src/plugins/style",
+  },
 });

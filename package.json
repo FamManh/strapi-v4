@@ -4,15 +4,17 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
-    "dev:watch": "strapi develop --watch-admin",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "develop": "yarn prebuild && strapi develop",
+    "dev:watch": "yarn prebuild && strapi develop --watch-admin",
+    "start": "yarn prebuild && strapi start",
+    "build": "yarn prebuild && strapi build",
+    "strapi": "strapi",
+    "prebuild": "node ./.scripts/index.js"
   },
   "devDependencies": {},
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^1.1.0",
+    "@strapi/design-system": "^1.1.1",
     "@strapi/plugin-graphql": "^4.1.12",
     "@strapi/plugin-i18n": "4.1.12",
     "@strapi/plugin-seo": "^1.7.3",
